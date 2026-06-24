@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Moon, Sun, Code, Menu, X, Mountain } from 'lucide-react';
+import { Moon, Sun, Code, Menu, X } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 import { useState } from 'react';
 import './Navbar.css';
@@ -21,7 +21,7 @@ export function Navbar() {
     <nav className="navbar glass">
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo">
-          <Mountain className="logo-icon" />
+          <img src="/logo.png" alt="Everest Logo" className="logo-img" />
           <span>Everest</span>
         </Link>
 

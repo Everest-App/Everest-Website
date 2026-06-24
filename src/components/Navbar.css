@@ -25,6 +25,11 @@
   color: var(--color-accent);
 }
 
+.logo-img {
+  height: 1.75rem;
+  width: auto;
+}
+
 .navbar-links {
   display: flex;
   align-items: center;

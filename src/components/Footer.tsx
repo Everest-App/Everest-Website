@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { Mountain } from 'lucide-react';
 import './Footer.css';
 
 export function Footer() {
@@ -11,7 +10,7 @@ export function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link to="/" className="footer-logo">
-              <Mountain className="logo-icon" />
+              <img src="/logo.png" alt="Everest Logo" className="logo-img" />
               <span>Everest</span>
             </Link>
             <p className="footer-description">
